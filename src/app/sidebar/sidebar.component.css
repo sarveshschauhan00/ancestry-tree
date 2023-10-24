@@ -1,0 +1,53 @@
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.3s;
+}
+
+.sidebar-content {
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.main-content {
+    margin-left: 0;
+    transition: 0.3s;
+    padding: 20px;
+}
+
+.collapse-button {
+    background-color: #333;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+.collapse-button:focus {
+    outline: none;
+}

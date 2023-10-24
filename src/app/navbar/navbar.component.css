@@ -1,0 +1,56 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    overflow: hidden;
+    padding-inline: 16px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 16px;
+}
+
+.login {
+    background-color:cornflowerblue;
+    color: black;
+    font-weight: 700;
+    border-radius: 16px;
+}
+
+.login :hover{
+    background-color: blue;
+    color: azure;
+}
+
+.title {
+    color: aliceblue;
+    background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff);
+    background-size: 200% 200%;
+    animation: gradientAnimation 5s infinite;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
