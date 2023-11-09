@@ -5,6 +5,7 @@
     background-color: #333;
     overflow: hidden;
     padding-inline: 16px;
+    padding-block: 8px;
 }
 
 .navbar a {
