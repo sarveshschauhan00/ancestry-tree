@@ -10,6 +10,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { HttpClientModule } from '@angular/common/http'
+import FamilyTree from "src/assets/balkanapp/familytree";
+import { FamilyTreeComponent } from './family-tree/family-tree.component';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +22,8 @@ import { HttpClientModule } from '@angular/common/http'
     LoginPageComponent,
     NavbarComponent,
     ProfileComponent,
-    SidebarComponent
+    SidebarComponent,
+    FamilyTreeComponent
   ],
   imports: [
     BrowserModule,

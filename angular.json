@@ -27,7 +27,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["src/assets/balkanapp/familytree.js"]
           },
           "configurations": {
             "production": {
